@@ -25,9 +25,8 @@ const RefinedObject = (obj) => {
     const newInterests = elm.interests
       .trim()
       .toLowerCase()
-      .replace(/\s+/, "")
-      .split(/,/)
-      .map((each) => each.trim());
+      .replace(/\s+/g, "")
+      .split(/,/);
     // 4. age edit
     const newAge = Number(elm.age.trim());
     // 5. return new object
