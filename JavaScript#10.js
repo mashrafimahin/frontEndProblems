@@ -32,7 +32,7 @@ const MergeObject = (obj1, obj2) => {
   const emailValidator = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
   // filter current object
   const filteredObj = obj1.filter(
-    (item) => (item.name.trim() && item.email.trim()) !== ""
+    (item) => item.name.trim() !== "" && item.email.trim() !== ""
   );
   // generate new object
   return filteredObj.map((elm) => {
