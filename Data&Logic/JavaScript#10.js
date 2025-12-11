@@ -1,7 +1,7 @@
 //! Problem: Multi-Source API Merge + Conflict Handling
 //? You are building a dashboard that receives two different API responses:
-//?     > User basic info API
-//?     > User activity stats API
+//?     User basic info API
+//?     User activity stats API
 //? But both APIs are messy, inconsistent, and sometimes missing data.
 //? Your job is to merge, clean, normalize, and fix conflicts.
 
