@@ -8,10 +8,10 @@
 //? 4️⃣ Work Experience ** If NaN → return 0
 //? 5️⃣ Determine seniority level
 //!     Create a new field:
-//*         > if experience < 1 → "intern"
-//*         > if experience 1–2 → "junior"
-//*         > if experience 3–5 → "mid"
-//*         > if experience > 5 → "senior"
+//*         if experience < 1 → "intern"
+//*         if experience 1–2 → "junior"
+//*         if experience 3–5 → "mid"
+//*         if experience > 5 → "senior"
 //? 6️⃣ Ignore completely corrupted entries
 
 //! Solution
