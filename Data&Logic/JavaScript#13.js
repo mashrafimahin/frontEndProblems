@@ -1,6 +1,6 @@
 //! Problem: Clean, Normalize & Analyze Users + Orders API
 
-//! 🎯 Tasks
+//! 🎯 Tasks:
 //? 1️⃣ Clean user data
 //?     name → title case
 //?     email → lowercase + validate
