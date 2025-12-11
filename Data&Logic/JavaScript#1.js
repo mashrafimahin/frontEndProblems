@@ -1,7 +1,7 @@
 //! Problem: Capitalize the First Letter of Each Word
 //? Given a string, return a new string where the first letter of each word is capitalized.
 //? Words are separated by one or more spaces. Trim any leading or trailing spaces.
-//* Example: "hello world from mahin" -> "Hello World From Mahin"
+//* Example: "hello world from mahin" --> "Hello World From Mahin"
 
 // solution
 const Solve = (param) => {
