@@ -4,18 +4,18 @@
 //?Your job is to clean, normalize, and rank the products based on a set of rules.
 
 //? Tasks:
-//? 1. Clean the name
-//? 2. Clean and convert price
-//? 3. Clean rating
-//? 4. Clean stock
-//? 5. Clean categories
-//? 6. Add a new property: priority
+//? Clean the name
+//? Clean and convert price
+//? Clean rating
+//? Clean stock
+//? Clean categories
+//? Add a new property: priority
 //*     | Condition                          | Priority   |
 //?     | ---------------------------------- | ---------- |
 //*     | stock > 10                         | `"high"`   |
 //*     | stock between 5 and 10 (inclusive) | `"medium"` |
 //*     | stock < 5                          | `"low"`    |
-//? 7. Final Output
+//? Final Output
 
 //! Solution
 const GenerateProirity = (value) => {
