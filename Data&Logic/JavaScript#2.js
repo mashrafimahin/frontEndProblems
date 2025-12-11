@@ -1,5 +1,5 @@
 //! Problem: Clean Up and Transform User Data
-//? Given an array of user objects with name, age, and role, transform each user by:
+//? Given an array of user objects with name, age and role, transform each user by:
 //? - Trimming whitespace from name, age, and role
 //? - Capitalizing the first letter of name and lowercasing the rest
 //? - Converting age to a number
