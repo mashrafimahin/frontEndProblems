@@ -1,6 +1,6 @@
 //! Problem: Normalize and Sanitize User Form Submissions
 
-//? You are building a frontend for a signup form.
+//? You are building a frontend for a signup form
 //? A server receives user data in a very messy, inconsistent format.
 
 //? 🎯 Task
