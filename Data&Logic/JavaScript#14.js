@@ -9,15 +9,15 @@
 //?     score → convert to number, missing → 0
 //? 3️⃣ Add Grade
 //?     Score Range	Grade
-//?         90–100	"A"
-//?         80–89	"B"
-//?         70–79	"C"
-//?         60–69	"D"
-//?         < 60	"F"
+//*         90–100	"A"
+//*         80–89	"B"
+//*         70–79	"C"
+//*         60–69	"D"
+//*         < 60	"F"
 //? 4️⃣ Final Output Sorted
 //?     Sort by:
-//?         Highest score
-//?         If tie → alphabetically by name
+//*         Highest score
+//*         If tie → alphabetically by name
 
 //! Solution
 const GenerateGrade = (value) => {
