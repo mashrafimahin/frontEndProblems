@@ -2,7 +2,7 @@
 //? You are given a list of orders from an e-commerce shop.
 //? Each order contains the buyer’s name, items they bought, and payment status.
 
-//? Task:
+//? Task-:
 //? ✔️ Clean data
 //? ✔️ Group orders by customer
 //? ✔️ Compute total spending
