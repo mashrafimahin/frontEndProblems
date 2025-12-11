@@ -1,7 +1,7 @@
 //! Problem: Analyze Product Sales Data
 //? Given an array of products with name, price, sold quantity, and category, calculate the total revenue for products in the "electronics" category.
 //? First, compute the total revenue for each product (price * sold).
-//? Then, filter the products by category "electronics".
+//? Then, filter the products by category "electronics"
 //? Finally, sum the total revenues of the filtered products and return an object with the filtered items and total revenue.
 
 // solution
