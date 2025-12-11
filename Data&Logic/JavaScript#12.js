@@ -1,11 +1,11 @@
 //! Problem: Clean, Group & Rank Orders From API
 //? You receive an API response containing orders.
 //? Each order contains:
-//*     > User info (messy)
-//*     > Multiple products
-//*     > Price inconsistencies
-//*     > Category duplicates
-//*     > Optional discount fields
+//*     User info (messy)
+//*     Multiple products
+//*     Price inconsistencies
+//*     Category duplicates
+//*     Optional discount fields
 //? Some orders are invalid and must be removed
 //? Your job is to build a clean & structured order dataset.
 
