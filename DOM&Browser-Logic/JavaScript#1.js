@@ -19,7 +19,7 @@ const DebounceTyping = (fn, delay = 500) => {
   // callback function
   return function (...args) {
     // clear timer
-    clearInterval(timer);
+    clearTimeout(timer);
     // set new timer
     timer = setInterval(() => {
       fn.apply(this, args);
@@ -41,7 +41,7 @@ const DebounceClick = (fn, delay = 500) => {
   // callback
   return function (...args) {
     // clear interval
-    clearInterval(interval);
+    clearTimeout(interval);
     // set new interval
     interval = setTimeout(() => {
       fn.apply(this, args);
