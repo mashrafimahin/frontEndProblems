@@ -1,6 +1,6 @@
 //! Problem: Deep Flatten an Array
 
-//? ❓ Problem Statement
+//? Problem Statement
 //? --------------------
 //? You are given a deeply nested array.
 //? Flatten it into a single-level array, without using flat(Infinity).
