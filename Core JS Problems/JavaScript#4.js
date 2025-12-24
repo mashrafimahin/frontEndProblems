@@ -8,13 +8,12 @@
 //? Support callback arguments
 
 //! Solution
-function myMap(arr, value = 1) {
+function myMap(arr, callback) {
   // default array
   let myArr = [];
   // loop
-  for (const elm of arr) {
-    // multiply and push
-    myArr.push(elm * value);
+  for (let i = 0; i < arr.length; i++) {
+    myArr.push(callback(arr[i], i, arr));
   }
   // return
   return myArr;
@@ -29,4 +28,4 @@ const value = 2;
 // → [2,4,6]
 
 ///! Function Calls
-myMap(arr, value);
+myMap(arr, (x) => x * value);
