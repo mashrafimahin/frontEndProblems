@@ -8,15 +8,15 @@
 //? Support callback arguments
 
 //! Solution
-function myReduce(arr) {
+function myReduce(arr, callback, initialValue) {
   // default array
-  let result = 0;
+  let acc = initialValue;
   // loop
-  for (const elm of arr) {
-    result += elm;
+  for (let i = 0; i < arr.length; i++) {
+    acc = callback(acc, arr[i], i, arr);
   }
   // return
-  return result;
+  return acc;
 }
 
 //! Input
@@ -27,4 +27,4 @@ const arr = [1, 2, 3];
 // → 6
 
 ///! Function Calls
-myReduce(arr);
+console.log(myReduce(arr, (acc, curr) => acc + curr, 0));
