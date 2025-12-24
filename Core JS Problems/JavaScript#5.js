@@ -8,14 +8,13 @@
 //? Support callback arguments
 
 //! Solution
-function myFilter(arr, value = 1) {
+function myFilter(arr, callback) {
   // default array
   let myArr = [];
   // loop
-  for (const elm of arr) {
-    // checkpoint
-    if (elm % value === 0) {
-      myArr.push(elm);
+  for (let i = 0; i < arr.length; i++) {
+    if (callback(arr[i], i, arr)) {
+      myArr.push(arr[i]);
     }
   }
   // return
@@ -31,4 +30,4 @@ const value = 2;
 // → [2,4]
 
 ///! Function Calls
-myFilter(arr, value);
+myFilter(arr, (x) => x % 2 === 0);
