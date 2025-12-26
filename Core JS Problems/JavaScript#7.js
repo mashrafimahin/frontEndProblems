@@ -7,21 +7,23 @@
 
 //! Solution
 const deepClone = (value) => {
-  // structured function
-  const strFun = (param) => {
-    return JSON.parse(JSON.stringify(param));
-  };
-
-  //? clone obj following data types
   // Primitive value
   if (typeof value !== "object" && value !== null) {
     return value;
   }
 
   // Array or Object
-  if (Array.isArray(value) || typeof value === "object") {
-    return strFun(value);
+  if (Array.isArray(value)) {
+    return value.map((item) => deepClone(item));
   }
+
+  // Objects
+  const result = {};
+  for (const key in value) {
+    result[key] = deepClone(value[key]);
+  }
+
+  return result;
 };
 
 //! Input
